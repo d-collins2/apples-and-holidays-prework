@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       day1 = day.gsub("_"," ").capitalize
       puts "  #{day1}: #{value.join(", ")}"
     end 
-  end string = string.gsub("_"," ").capitalize
+  end 
 end
 
 def all_holidays_with_bbq(holiday_hash)
